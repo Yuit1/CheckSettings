@@ -1,3 +1,15 @@
+function Ciskernell { 
+
+Write-host "Correção para LIVE ou outros setores?"
+
+   live= $Cikernell_Live
+   outros= $Ciskernell_Normal
+   Read-Host= "live"
+   Read-Host= "outros"
+
+
+}
+
  $Ciskernell_Normal 
     remove-item c:\Program Files (x86)\TeleAp\CisKernel
     copy-item \\10.0.150.109\ti\Programas_TI\Software_Tim_Brasil\CisKernel_Normal\ciskernel_normal\CisKernel* c:\Program Files (x86)\TeleAp -force -recurse -verbose
