@@ -1,0 +1,12 @@
+function Ciskernell_Normal {
+
+    remove-item c:\Program Files (x86)\TeleAp\CisKernel
+    copy-item \\10.0.150.109\ti\Programas_TI\Software_Tim_Brasil\CisKernel_Normal\ciskernel_normal\CisKernel* c:\Program Files (x86)\TeleAp -force -recurse -verbose
+
+
+}
+
+function Cikernell_Live {
+
+    remove-item c:\Program Files (x86)\TeleAp
+    copy-item \\10.0.150.109\ti\Programas_TI\Software_Tim_Brasil\CisKernel_LIVE\ciskernel_live\TeleAp* c:\Program Files (x86) -force -recurse -verbose
