@@ -1,4 +1,0 @@
-taskkill -f -im goo* | taskkill  -f -im chr*
-Remove-Item -path "c:\Program Files (x86)\Google\update" | Remove-item -path "c:\Program Files\google"
-
-Copy-Item -path \\newnas\ti\Programas_TI\GOOGLE_CORRETO\google -Destination "c:\Program Files"
