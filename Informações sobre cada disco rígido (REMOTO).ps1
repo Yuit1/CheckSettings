@@ -1,7 +1,3 @@
- Write-Host "Você escolheu a opção 21. Ação 21 será executada."
-                start-Sleep -Seconds 2
-                cls
-
 
                 # Obtém informações sobre o disco rígido
                 $diskInfo = Get-WmiObject Win32_DiskDrive
@@ -49,5 +45,4 @@
                
                 pause
                 cls
-                #break
             }
